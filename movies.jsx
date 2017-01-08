@@ -14,11 +14,7 @@ class Movies extends React.Component{
             moviesToShow: []
         }
     }
-    // getInitialState() {
-    //     return{
-    //         moviesToShow: []
-    //     };
-    // }
+
     // we dont want to make our AJAX request until our component has mounted
     // componentDidMount() will run as soon as it has been, which is the perfect time!
     componentDidMount() {
@@ -42,7 +38,6 @@ class Movies extends React.Component{
 				<div className="row">
 					<div className="col-sm-12 text-center">
 						<div className="th-wrapper">
-							<button className="btn btn-primary">Reset Search</button>
 						</div>
 						<div className="movie-rows">
 							{/* Movies go here! */}
